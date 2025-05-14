@@ -8,10 +8,11 @@ import BackgroundCircles from './BackgroundCircles';
 export default function Layout() {
   return (
     <>
-        <Loader />
+        
         <Header />
         <Overlay />
         <BackgroundCircles />
+        <Loader />
         <main className="main">
             <Outlet />
         </main>

@@ -50,13 +50,13 @@ const About = () => {
                         <div className="tab-content active" id="education">
                             <div className="timeline">
                                 <div className="timeline-item">
-                                    <span className="date">2016 - 2020</span>
-                                    <h4>bachelor of science - <span>University of Abuja</span></h4>
+                                    <span className="date">2025 - 2029</span>
+                                    <h4>bachelor of science(undergraduate) - <span>National Open University of Nigeria</span></h4>
                                     <p>Computer Science</p>
                                 </div>
                                 <div className="timeline-item">
                                     <span className="date">2022 - 2023</span>
-                                    <h4>Codar institute of technology - <span>Codar School</span></h4>
+                                    <h4>Codar institute of technology - <span> kWE Africa</span></h4>
                                     <p>Python Full-Stack web development</p>
                                 </div>
                             </div>

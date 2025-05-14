@@ -573,12 +573,12 @@ button {
     padding: 0 15px;
 }
 
-.about-img .img-box {
+.about-img .img-box img{
     background-color: var(--white-alpha-25);
     max-width: 380px;
     border: 1px solid var(--white-alpha-40);
     margin: auto;
-    border-radius: 10px;
+    border-radius: 50%;
 }
 
 .about-text .img-box {
