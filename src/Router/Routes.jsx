@@ -12,9 +12,9 @@ const AppRoutes = () => {
     <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
         {/* Optional: Add a 404 fallback route */}
         <Route path="*" element={<div>Page Not Found</div>} />
