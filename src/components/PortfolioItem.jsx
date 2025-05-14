@@ -6,7 +6,7 @@ const PortfolioItem = ({ title, imgSrc, onViewProject }) => {
   return (
     <div className="portfolio-item">
       <div className="portfolio-item-thumbnail">
-        <img src={imgSrc} alt="portfolio thumbnail" />
+        <img src={imgSrc} loading='lazy' alt="portfolio thumbnail" />
       </div>
       <h3 className="portfolio-item-title">{title}</h3>
       <button

@@ -18,7 +18,7 @@ const Home = () => {
                     </div>
                     <div className="home-img">
                         <div className="img-box">
-                            <img src={profileImg} alt="hero" />
+                            <img src={profileImg} loading='lazy' alt="hero" />
                         </div>
                     </div>
                 </div>

@@ -17,7 +17,7 @@ const About = () => {
             <div className="row">
                 <div className="about-img">
                     <div className="img-box">
-                        <img src={aboutImg} alt="about img"/>
+                        <img src={aboutImg} loading='lazy' alt="about img"/>
                     </div>
                 </div>
                 <div className="about-text">
